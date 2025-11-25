@@ -1,0 +1,25 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_estrellas">
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Información sobre el Universo\n\
+
+El universo es un vasto océano cósmico en constante expansión, lleno de misterios y maravillas que aún estamos intentando comprender. Desde los planetas de nuestro sistema solar hasta las galaxias más distantes, todo lo que existe forma parte de un entramado inmenso de energía, materia y espacio-tiempo.
+
+Los planetas son mundos diversos: algunos rocosos y cálidos como la Tierra y Marte, otros gigantes gaseosos como Júpiter y Saturno, cuyos anillos y tormentas eternas fascinan a astrónomos desde hace siglos. Más allá, mundos helados, océanos subterráneos y atmósferas exóticas sugieren que el universo podría albergar formas de vida desconocidas.
+
+Las estrellas, grandes esferas de gas ardiente, nacen en gigantescas nubes de polvo llamadas nebulosas. A lo largo de millones de años evolucionan, brillan y, finalmente, mueren en explosiones que riegan el espacio con elementos que más tarde darán origen a nuevos sistemas solares.
+
+Las galaxias son ciudades cósmicas formadas por miles de millones de estrellas. La nuestra, la Vía Láctea, es una espiral majestuosa que contiene nuestro hogar, el Sistema Solar.
+
+A medida que la tecnología avanza, nuestras sondas, telescopios y misiones espaciales nos permiten ver más lejos y comprender más..."
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:lineSpacingExtra="6dp"
+        android:padding="24dp"/>
+</ScrollView>

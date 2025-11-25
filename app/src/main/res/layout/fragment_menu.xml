@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <!-- Logo de la app -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="333dp"
+        android:layout_height="124dp"
+        android:src="@drawable/logo_galax" /> <!-- Logo que pusiste en drawable -->
+
+
+    <!-- Nombre de la app -->
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AppGalax"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Botones -->
+    <Button
+        android:id="@+id/btnGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Galería"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextWhite" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Información"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextWhite" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acerca de la App"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextWhite" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Imágenes Random"
+        android:padding="12dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/buttonTextWhite" />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:text="Las imágenes y descripciones utilizadas en esta aplicación provienen de archivos públicos de NASA, ESA y otros organismos astronómicos internacionales.\n\nEste proyecto fue creado con fines educativos y de divulgación científica, acercando el universo a las personas de forma simple y accesible." />
+
+</ScrollView>
+
